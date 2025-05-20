@@ -14,12 +14,12 @@
             "description": "Bencode dictionary content",
             "type": "object",
             "properties": {
-                "$info": {
+                "info": {
                     "description": "Main torrent data",
                     "type": "object"
                 }
             },
-            "required": ["$info"]
+            "required": ["info"]
         }
     },
     "required": ["data"]
