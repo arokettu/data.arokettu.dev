@@ -1,6 +1,7 @@
-image: scratch
+image: alpine:latest
 create-pages:
-  script: []
+  script:
+    - ls public # noop basically
   pages:
     publish: public
   only:
